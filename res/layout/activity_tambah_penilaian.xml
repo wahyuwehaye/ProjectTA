@@ -1,0 +1,381 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.arrafi.laboratoriumar_rafi.TambahPenilaian" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Tambah Nilai Kegiatan Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Penjadwalan"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editPenjadwalan"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Mekanisme Kegiatan di Laboratorium"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editMekanisme"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:textColor="@color/colortext"
+                android:maxLength="25"
+                android:spinnerMode="dropdown"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Pelayanan Laboran"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editPelayanan"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Ketersediaan Sarana"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editSarana"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Suasana di Laboratorium"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editSuasana"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Kelas"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editKelasDinilai"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Penilai"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/editPenilaiLab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Penilai"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Laboran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/editDinilaiLab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Laboran"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Mata Pelajaran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/editMapelNil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mata Pelajaran"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Jam Ke -"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/editJamKeNil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jam Ke-"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <TextView
+                android:id="@+id/txt_nampung_dataNILAI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:text="TextView"
+                android:visibility="gone" />
+        
+        <TextView
+                android:id="@+id/txt_hasilNilai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:text="TextView"
+                android:visibility="gone" />
+        
+
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelPenilaian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Cancel"
+            android:textColor="#55FF55" />
+
+        <Button
+            android:id="@+id/inputPenilaian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="OK"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namaSESPENIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/status"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="nama"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/namaSESPENIL"
+        android:layout_below="@+id/namaSESPENIL"
+        android:layout_marginTop="12dp"
+        android:background="@color/colortext" />
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

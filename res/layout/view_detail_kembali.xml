@@ -1,0 +1,389 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.arrafi.laboratoriumar_rafi.ViewDetailKembali" >
+    
+
+        
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollViewLab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/statusTmbKBL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Detail Perangkat Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="ID"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbIDKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Barang"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="12"
+                android:background="@null"
+                android:padding="16dp"
+                android:inputType="date"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Barang"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbNamaKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Barang"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Kondisi"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailKondisiKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kondisi"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Tanggal Peminjaman"
+        android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTGLInp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Peminjaman"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"
+            android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Laboran"
+        android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailNMLBRn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Laboran"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"
+            android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Pelapor"
+        android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbNmGRKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Guru"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"
+            android:visibility="gone"/>
+        
+        <TextView android:id="@+id/detailTmbStsKBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidden"
+        android:visibility="gone"/>
+        
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Keluhan"
+        android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbKeluhanKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Keluhan"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"
+            android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Keterangan Keluhan"
+        android:visibility="gone"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbKetKeluhanKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Keterangan Keluhan"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"
+            android:visibility="gone"/>
+  
+        
+        <customfonts.MyEditText
+
+                android:textSize="16dp"
+                android:id="@+id/detailTmbTglBeliKBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Beli"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="12"
+                android:background="@null"
+                android:padding="16dp"
+                android:inputType="date"
+                android:drawablePadding="12dp"
+                android:visibility="gone"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        
+        
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/kembaliAltKBL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Kembali"
+            android:textColor="#00FF00"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/pinjamAlatKBL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Kembalikan"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/colortext"/>
+
+    <TextView
+        android:id="@+id/namaSLBTdetailKBL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/statusTmbKBL"
+        android:layout_below="@+id/statusTmbKBL"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="nama"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

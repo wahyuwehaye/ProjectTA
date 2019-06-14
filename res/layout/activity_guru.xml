@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.arrafi.laboratoriumar_rafi.GuruActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+    </FrameLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+        
+        
+    
+    <Button
+            android:id="@+id/logoutGRU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:text="Logout"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+    
+    <TextView
+        android:id="@+id/statusGRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Hallo"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+    
+        <TableLayout
+       android:id="@+id/tableLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/imageView1"
+       android:layout_marginTop="10dp"
+       android:shrinkColumns="*"
+       android:stretchColumns="*" >
+       
+       <TableRow
+        android:id="@+id/tableRowBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/txa"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        <Button
+	    android:id="@+id/btn_jadwalGRU"
+	    android:visibility="visible"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Lihat Jadwal"
+	    android:textStyle="bold"
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal"
+	    android:padding="1dp"
+	    android:textSize="10sp" 
+	    />
+          <TextView
+            android:id="@+id/txb"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+         <Button
+	    android:id="@+id/btn_peralatanGRU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Lihat Peralatan"
+	    android:textStyle="bold"
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal" 
+	    android:padding="1dp"
+	    android:textSize="10sp"  />
+          <TextView
+            android:id="@+id/txc"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        
+    </TableRow>
+       
+    <TableRow
+        android:id="@+id/tableRowBtn1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/txa1"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        <Button
+	    android:id="@+id/btn_nilaiGRU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Lihat Nilai"
+	    android:textStyle="bold"
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal"
+	    android:padding="1dp"
+	    android:textSize="10sp"  
+	    />
+          <TextView
+            android:id="@+id/txb1"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+         <Button
+	    android:id="@+id/btn_pengembalianGRU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Pengembalian"
+	    android:textStyle="bold"
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal" 
+	    android:padding="1dp" 
+	    android:textSize="10sp" />
+          <TextView
+            android:id="@+id/txc2"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        
+    </TableRow>
+
+    
+    <TableRow
+        android:id="@+id/tableRowBtn2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+       
+        <TextView
+            android:id="@+id/txi"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        <Button
+	    android:id="@+id/btn_inputGRU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Input Kerusakan"
+	    android:textStyle="bold"
+	    android:textSize="10sp" 
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal" />
+        <TextView
+            android:id="@+id/txe"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+         <Button
+	    android:id="@+id/btn_laporanGRU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableTop="@drawable/ic_launcher"
+	    android:text="Lihat Laporan"
+	    android:textStyle="bold"
+	    android:background="@layout/activity_button_menu"
+	    android:gravity="center|center_horizontal"
+	    android:textSize="10sp"  />
+         <TextView
+            android:id="@+id/txf"
+            android:text=""
+            android:padding="0dp">
+            </TextView>
+        
+    </TableRow>
+       
+    
+</TableLayout>
+        
+        
+        
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

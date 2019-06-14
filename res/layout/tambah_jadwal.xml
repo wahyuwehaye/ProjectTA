@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.example.arrafiapplication.TambahJadwal" >
+    
+
+        
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Tambah Jadwal Kegiatan Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Tanggal"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="16dp"
+                android:id="@+id/editTgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input Tanggal"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="12"
+                android:background="@null"
+                android:padding="16dp"
+                android:inputType="date"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Kelas"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editKelas"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Mata Pelajaran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="16dp"
+                android:id="@+id/editMapel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mata Pelajaran"
+                android:text="Mata Pelajaran"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Jam Ke"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editJamke"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input Jam Ke"
+                android:maxLength="25"
+                android:spinnerMode="dropdown"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Keterangan"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="16dp"
+                android:id="@+id/editKet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input Keterangan"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <TextView android:id="@+id/editStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidden"
+        android:visibility="gone"/>
+        
+        <TextView
+                android:id="@+id/txt_nampung_kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:text="TextView"
+                android:visibility="gone" />
+        
+        <TextView android:id="@+id/namaLBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidden"
+        android:visibility="gone"/>
+        
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelJadw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Cancel"
+            android:textColor="#55FF55" />
+
+        <Button
+            android:id="@+id/inputJadw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="OK"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namaSGT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/status"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="nama"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/colortext"/>
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

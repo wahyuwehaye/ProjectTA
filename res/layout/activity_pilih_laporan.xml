@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.example.arrafiapplication.PilihLaporan"
+    >
+	
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+    </FrameLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        
+         <customfonts.MyTextView
+  
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:paddingBottom="5dp"
+		    android:text="Rekap Data Laboratorium"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="@color/colortext"
+		    android:textSize="20dp"
+		    android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/bulan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/tahun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+	 <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000" />
+
+	 <Button
+	     android:id="@+id/cari_data"
+	     style="?android:attr/buttonStyleSmall"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:text="Cari"
+	     android:textColor="@color/hitam"
+	     android:textSize="18sp"
+	     android:background="@drawable/custom_button"
+	     android:textStyle="bold"
+	     android:drawableLeft="@drawable/carici"
+	     android:layout_marginBottom="15dp"
+	     android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+             >
+
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kegiatan Laboratorium            : "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colortext"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jumlah_kegiatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colortext"
+                android:textStyle="bold|italic"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/lihat_kegiatan"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:text="Lihat"
+                android:textSize="15sp"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/hitam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peralatan Laboratorium           : "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colortext"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jumlah_peralatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colortext"
+                android:textStyle="bold|italic"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/lihat_peralatan"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:text="Lihat"
+                android:textSize="15sp"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/hitam" />
+
+        </LinearLayout>
+
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="1dp"
+     android:layout_marginTop="5dp"
+     android:layout_marginBottom="15dp"
+     android:background="@color/colortext" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Bulan : "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colortext"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_bulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colortext" />
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="Tahun : "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colortext"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_tahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colortext" />
+
+</LinearLayout>
+	 
+        
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

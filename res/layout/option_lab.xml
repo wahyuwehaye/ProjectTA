@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.example.arrafiapplication.OptionLab" >
+	
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/bgrect" >
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:gravity="center"
+        android:padding="16dp" >
+
+        <Button
+            android:id="@+id/ipa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mulmed"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="38dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:text="Laboratorium IPA"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/arafi" />
+
+        <Button
+            android:id="@+id/mulmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ipa"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:text="Laboratorium Multimedia"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

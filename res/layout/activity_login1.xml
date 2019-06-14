@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.example.arrafiapplication.LoginActivity" >
+	
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/bgrect" >
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bgrect"
+        android:gravity="end"
+        android:padding="16dp" >
+        
+        <TextView
+            android:id="@+id/wolf"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arafi"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/rect"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#2AFF00"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/username"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColor="#55FF2A"
+                android:textColorHint="#ffffff"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="left"
+                android:drawableLeft="@drawable/userhijau40"
+                android:drawablePadding="12dp" >
+
+                <requestFocus />
+            </EditText>
+            
+            <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="20dp"
+                android:inputType="textPassword"
+                android:textColor="#55FF2A"
+                android:textColorHint="#ffffff"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="left"
+                android:drawableLeft="@drawable/key40"
+                android:drawablePadding="12dp" />
+            
+            <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

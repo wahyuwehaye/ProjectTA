@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.example.arrafiapplication.OptionLogin" >
+	
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/bgrect" >
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:padding="16dp" >
+        
+
+        <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            >
+
+
+            <Button
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/laboran"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laboran"
+                android:textColor="#fff"
+                android:background="@drawable/rect1"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:id="@+id/mulmed"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guru"
+                android:textColor="#fff"
+                android:background="@drawable/rect1"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/wolf"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/arafi"
+            android:textColor="#ffffff" />
+
+        <customfonts.MyTextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linear"
+            android:layout_below="@+id/wolf"
+            android:layout_marginTop="34dp"
+            android:gravity="center"
+            android:text="Login Sebagai?"
+            android:textColor="#AAFFAA"
+            android:textSize="29dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.example.arrafiapplication.DetailJadwal" >
+    
+
+        
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Detail Jadwal Kegiatan Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="NO"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="No"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Tanggal"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailTgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Tanggal"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Kelas"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailKelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Kelas"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Mata Pelajaran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailMapel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Mata Pelajaran"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Jam Ke"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailJamKe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Jam Ke"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Keterangan"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailKet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Keterangan"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Status"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Status"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Nama Guru"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailNamaGRU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Nama Guru"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/kemVJD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Back"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namaSDG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/status"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="nama"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/colortext"/>
+    
+    <TextView android:id="@+id/detSts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidden"
+        android:visibility="gone"/>
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

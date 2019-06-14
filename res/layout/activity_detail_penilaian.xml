@@ -1,0 +1,417 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.arrafi.laboratoriumar_rafi.DetailPenilaian" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Detail Nilai Kegiatan Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="70dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="NO"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailIDPen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="No"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Penjadwalan"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailPenjadwalan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Penjadwalan"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Mekanisme Kegiatan di Laboratorium"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailMekanisme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Mekanisme"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Pelayanan Laboran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailPelayanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Pelayanan"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Ketersediaan Sarana"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailSarana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Sarana"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Suasana di Laboratorium"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailSuasana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Suasana"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Nama Penilai"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailPenilai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Penilai"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Nama Laboran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailDinilai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Dinilai"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Tanggal Penilaian"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailTanggalPenilaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Tanggal"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Kelas"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailKelasPenilaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Kelas"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Mata Pelajaran"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailMapelPenilaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Mata Pelajaran"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Jam Ke -"/>
+        
+        <customfonts.MyTextView
+
+                android:textSize="20dp"
+                android:id="@+id/DetailJamKePenilaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text=""
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        
+        
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+            <Button
+            android:id="@+id/backDetPenil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Back"
+            android:textColor="#000000"
+            android:visibility="gone" />
+
+        
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namaSESPEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/status"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="nama"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+    
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

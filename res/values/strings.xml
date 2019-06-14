@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laboratorium Ar-Rafi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Laboran</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">Laboratorium Ar-Rafi</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="title_activity_option_login">Option Login</string>
+    <string name="title_activity_login1">Guru</string>
+    <string name="title_activity_laboran">LaboranActivity</string>
+    <string name="title_activity_jadwal_lab">Jadwal Laboratorium</string>
+    <string name="title_activity_option_lab">Option Laboratorium</string>
+    <string name="title_activity_tambah_jadwal">Tambah Jadwal</string>
+    <string name="prompt">  Select One  </string>
+
+    <drawable name="red">#C11B17</drawable>
+    <drawable name="darkgrey">#606060</drawable>
+
+    <string name="title_activity_lihat_jadwal">Jadwal Laboratorium</string>
+    <string name="title_activity_view_all_jadwal">Jadwal Laboratorium</string>
+    <string name="title_activity_detail_jadwal">Jadwal Kegiatan Laboratorium</string>
+    <string name="title_activity_lbview_all_jdwl">Jadwal Kegiatan Laboratorium</string>
+    <string name="title_activity_tambah_jdwl_lab">Jadwal Kegiatan Laboratorium</string>
+    <string name="title_activity_view_jadwal_lab">ViewJadwalLab</string>
+    <string name="title_activity_update_profil">Update Profil</string>
+    <string name="title_activity_lbview_appjdwl">LBviewAPPJdwl</string>
+    <string name="title_activity_nilai_laboran">NilaiLaboran</string>
+    <string name="title_activity_kerusakan_perangkat_lab">Kerusakan Perangkat Lab</string>
+    <string name="title_activity_pilih_laporan">PilihLaporan</string>
+    <string name="title_activity_laporan_alat">Laporan Peralatan Laboratorium</string>
+    <string name="title_activity_laporan_kegiatan">Laporan Kegiatan Laboratorium</string>
+    <string name="title_activity_update_prof_lab">UpdateProfLab</string>
+    <string name="title_activity_guru">Laboratorium A-Rafi</string>
+    <string name="title_activity_view_nilai_lab">ViewNilaiLab</string>
+    <string name="title_activity_tambah_nilai">TambahNilai</string>
+    <string name="title_activity_detail_nilai">DetailNilai</string>
+    <string name="title_activity_detail_nilai_lab">Detail Nilai Laboratorium</string>
+    <string name="title_activity_peralatan_lab">PeralatanLab</string>
+    <string name="title_activity_tambah_alat_lab">Tambah Alat Laboratorium</string>
+    <string name="title_activity_view_detail_alat">ViewDetailAlat</string>
+    <string name="title_activity_peralatan_di_guru">Peralatan Laboratorium</string>
+    <string name="title_activity_pengembalian_alat">PengembalianAlat</string>
+    <string name="title_activity_input_kerusakan_alat">InputKerusakanAlat</string>
+    <string name="title_activity_view_jadwal_lab_app">Detail Jadwal Lab</string>
+    <string name="title_activity_view_detail_alat_rusak">Detail Alat Rusak</string>
+    <string name="title_activity_view_detail_pinjam">ViewDetailPinjam</string>
+    <string name="title_activity_view_detail_kembali">ViewDetailKembali</string>
+    <string name="title_activity_lapor_kerusakan">LaporKerusakan</string>
+    <string name="title_activity_cek_pinjam_alat">Cek Pinjam Alat</string>
+    <string name="title_activity_detail_pinjam">DetailPinjam</string>
+    <string name="title_activity_menu_utama_guru">MenuUtamaGuru</string>
+    <string name="title_activity_list_rekap_kegiatan">ListRekapKegiatan</string>
+    <string name="title_activity_list_rekap_peralatan">ListRekapPeralatan</string>
+    <string name="title_activity_penilaian_kegiatan">PenilaianKegiatan</string>
+    <string name="title_activity_detail_penilaian">DetailPenilaian</string>
+    <string name="title_activity_tambah_penilaian">TambahPenilaian</string>
+    <string name="title_activity_penilaian_kegiatan_lab">PenilaianKegiatanLab</string>
+
+</resources>

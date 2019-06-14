@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    tools:context="com.arrafi.laboratoriumar_rafi.ListRekapPeralatan" >
+
+    <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/bgrect" >
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bgrect"
+        android:gravity="end"
+        android:padding="16dp" >
+
+        <customfonts.MyTextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/wolf"
+            android:gravity="center"
+            android:text="Rekap Peralatan Laboratorium"
+            android:textColor="@color/colortext"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+        android:id="@+id/linearLayoutAPP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        
+                <customfonts.MyTextView
+         
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="35dp"
+             android:paddingRight="5dp"
+             android:text="Jumlah Data : "
+             android:textColor="@color/colortext"
+             android:textSize="16sp"
+             android:gravity="center" />
+
+         <customfonts.MyTextView
+             android:id="@+id/jm_peralatan"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="--"
+             android:textColor="@color/colortext"
+             android:textSize="16sp"
+             android:gravity="center" />
+
+    </LinearLayout>
+
+            <ListView
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:dividerHeight="2dp"
+         android:divider="@drawable/rect"
+         android:layout_marginLeft="0dp"
+         android:layout_marginRight="0dp"
+         android:layout_marginTop="20dp"
+        android:id="@+id/listRekapAlat" />
+          
+        </LinearLayout>
+        <customfonts.MyTextView
+            android:id="@+id/namaSviewRekapAlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/head"
+            android:layout_below="@+id/head"
+            android:gravity="center"
+            android:text="nama"
+            android:textColor="@color/colortext"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/colortext"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

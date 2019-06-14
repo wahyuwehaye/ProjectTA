@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arrafi.laboratoriumar_rafi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OptionLogin"
+            android:label="@string/title_activity_option_login" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Login1"
+            android:label="@string/title_activity_login1" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".LaboranActivity"
+            android:label="@string/title_activity_laboran" >
+        </activity>
+        <activity
+            android:name=".JadwalLab"
+            android:label="@string/title_activity_jadwal_lab" >
+        </activity>
+        <activity
+            android:name=".OptionLab"
+            android:label="@string/title_activity_option_lab" >
+        </activity>
+        <activity
+            android:name=".TambahJadwal"
+            android:label="@string/title_activity_tambah_jadwal" >
+        </activity>
+        <activity
+            android:name=".LihatJadwal"
+            android:label="@string/title_activity_lihat_jadwal" >
+        </activity>
+        <activity
+            android:name=".ViewAllJadwal"
+            android:label="@string/title_activity_view_all_jadwal" >
+        </activity>
+        <activity
+            android:name=".DetailJadwal"
+            android:label="@string/title_activity_detail_jadwal" >
+        </activity>
+        <activity
+            android:name=".LBviewAllJdwl"
+            android:label="@string/title_activity_lbview_all_jdwl" >
+        </activity>
+        <activity
+            android:name=".TambahJdwlLab"
+            android:label="@string/title_activity_tambah_jdwl_lab" >
+        </activity>
+        <activity
+            android:name=".ViewJadwalLab"
+            android:label="@string/title_activity_view_jadwal_lab" >
+        </activity>
+        <activity
+            android:name=".UpdateProfil"
+            android:label="@string/title_activity_update_profil" >
+        </activity>
+        <activity
+            android:name=".LBviewAPPJdwl"
+            android:label="@string/title_activity_lbview_appjdwl" >
+        </activity>
+        <activity
+            android:name=".NilaiLaboran"
+            android:label="@string/title_activity_nilai_laboran" >
+        </activity>
+        <activity
+            android:name=".KerusakanPerangkatLab"
+            android:label="@string/title_activity_kerusakan_perangkat_lab" >
+        </activity>
+        <activity
+            android:name=".PilihLaporan"
+            android:label="@string/title_activity_pilih_laporan" >
+        </activity>
+        <activity
+            android:name=".LaporanAlat"
+            android:label="@string/title_activity_laporan_alat" >
+        </activity>
+        <activity
+            android:name=".LaporanKegiatan"
+            android:label="@string/title_activity_laporan_kegiatan" >
+        </activity>
+        <activity
+            android:name=".UpdateProfLab"
+            android:label="@string/title_activity_update_prof_lab" >
+        </activity>
+        <activity
+            android:name=".GuruActivity"
+            android:label="@string/title_activity_guru" >
+        </activity>
+        <activity
+            android:name=".ViewNilaiLab"
+            android:label="@string/title_activity_view_nilai_lab" >
+        </activity>
+        <activity
+            android:name=".TambahNilai"
+            android:label="@string/title_activity_tambah_nilai" >
+        </activity>
+        <activity
+            android:name=".DetailNilai"
+            android:label="@string/title_activity_detail_nilai" >
+        </activity>
+        <activity
+            android:name=".DetailNilaiLab"
+            android:label="@string/title_activity_detail_nilai_lab" >
+        </activity>
+        <activity
+            android:name=".PeralatanLab"
+            android:label="@string/title_activity_peralatan_lab" >
+        </activity>
+        <activity
+            android:name=".TambahAlatLab"
+            android:label="@string/title_activity_tambah_alat_lab" >
+        </activity>
+        <activity
+            android:name=".ViewDetailAlat"
+            android:label="@string/title_activity_view_detail_alat" >
+        </activity>
+        <activity
+            android:name=".PeralatanDiGuru"
+            android:label="@string/title_activity_peralatan_di_guru" >
+        </activity>
+        <activity
+            android:name=".PengembalianAlat"
+            android:label="@string/title_activity_pengembalian_alat" >
+        </activity>
+        <activity
+            android:name=".InputKerusakanAlat"
+            android:label="@string/title_activity_input_kerusakan_alat" >
+        </activity>
+        <activity
+            android:name=".ViewJadwalLabAPP"
+            android:label="@string/title_activity_view_jadwal_lab_app" >
+        </activity>
+        <activity
+            android:name=".ViewDetailAlatRusak"
+            android:label="@string/title_activity_view_detail_alat_rusak" >
+        </activity>
+        <activity
+            android:name=".ViewDetailPinjam"
+            android:label="@string/title_activity_view_detail_pinjam" >
+        </activity>
+        <activity
+            android:name=".ViewDetailKembali"
+            android:label="@string/title_activity_view_detail_kembali" >
+        </activity>
+        <activity
+            android:name=".LaporKerusakan"
+            android:label="@string/title_activity_lapor_kerusakan" >
+        </activity>
+        <activity
+            android:name=".CekPinjamAlat"
+            android:label="@string/title_activity_cek_pinjam_alat" >
+        </activity>
+        <activity
+            android:name=".DetailPinjam"
+            android:label="@string/title_activity_detail_pinjam" >
+        </activity>
+        <activity
+            android:name=".MenuUtamaGuru"
+            android:label="@string/title_activity_menu_utama_guru" >
+        </activity>
+        <activity
+            android:name=".ListRekapKegiatan"
+            android:label="@string/title_activity_list_rekap_kegiatan" >
+        </activity>
+        <activity
+            android:name=".ListRekapPeralatan"
+            android:label="@string/title_activity_list_rekap_peralatan" >
+        </activity>
+        <activity
+            android:name=".PenilaianKegiatan"
+            android:label="@string/title_activity_penilaian_kegiatan" >
+        </activity>
+        <activity
+            android:name=".DetailPenilaian"
+            android:label="@string/title_activity_detail_penilaian" >
+        </activity>
+        <activity
+            android:name=".TambahPenilaian"
+            android:label="@string/title_activity_tambah_penilaian" >
+        </activity>
+        <activity
+            android:name=".PenilaianKegiatanLab"
+            android:label="@string/title_activity_penilaian_kegiatan_lab" >
+        </activity>
+    </application>
+
+</manifest>

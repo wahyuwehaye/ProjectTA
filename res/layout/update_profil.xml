@@ -1,0 +1,361 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.example.arrafiapplication.UpdateProfil" >
+    
+
+        
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+        
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollViewPRp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/statusUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Update Profil Guru"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colortext"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="ID Guru"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editIDGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="ID Guru"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Nama Guru"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editNamaGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Nama"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Jenis Kelamin"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editJenisGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Jenis Kelamin"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="NIP"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editNipGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="NIP"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Tanggal Tahir"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editTMTGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Tanggal Lahir"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Wewenang"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editWewenangGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Wewenang"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="ID Kelas"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editIDKelGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="ID Kelas"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Kelas"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editKelGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Kelas"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Username"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editUserGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Username"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUP"
+        android:text="Password"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="20dp"
+                android:id="@+id/editPassGR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/colortext"
+                android:padding="10dp"
+                android:text="Password"
+                android:drawablePadding="10dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/btnBackGR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Back"
+            android:textColor="#55FF2A" />
+        
+        <Button
+            android:id="@+id/btnupdateGR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Update"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect"
+    android:orientation="vertical"
+    tools:context="com.example.arrafiapplication.TambahNilai" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+    </FrameLayout>
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/bgrect" >
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Tambah Nilai Kegiatan Laboratorium"
+        android:textColor="@color/colortext"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp">
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Jenis Nilai"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editJenisNilai"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:maxLength="20"
+                android:spinnerMode="dropdown"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nilai"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editNilai"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:textColor="@color/colortext"
+                android:maxLength="25"
+                android:spinnerMode="dropdown"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Keterangan"/>
+        
+        <customfonts.MyEditText
+
+                android:textSize="16dp"
+                android:id="@+id/editKetNil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input Keterangan"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="@color/colorhint"
+                android:textColor="@color/colortext"
+                android:maxLength="100"
+                android:background="@null"
+                android:padding="16dp"
+                android:drawablePadding="12dp"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Nama Laboran"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editNamaLabor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:spinnerMode="dropdown"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+        
+        <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/colorUP"
+        android:text="Jam Ke -"/>
+        
+        <Spinner
+
+                android:textSize="16dp"
+                android:id="@+id/editJadwal"
+                android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+                android:textColor="@color/colortext"
+                android:maxLength="25"
+                android:spinnerMode="dropdown"
+
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colortext"/>
+
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelNilai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Cancel"
+            android:textColor="#55FF55" />
+
+        <Button
+            android:id="@+id/inputNilai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="OK"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namaSGTNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/status"
+        android:layout_below="@+id/status"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="nama"
+        android:textColor="@color/colortext"
+        android:textSize="14sp" />
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/colortext"/>
+    
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
